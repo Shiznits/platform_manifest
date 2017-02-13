@@ -131,6 +131,7 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="laos"/>
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" groups="qcom_wlan" remote="laos"/>
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" groups="qcom_wlan" remote="laos" revision="cm-14.1-caf"/>
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos"/>
 <!-- END LINEAGE-OS -->
 
 <!-- BEGIN SUBSTRATUM -->
