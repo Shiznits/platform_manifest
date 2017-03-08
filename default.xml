@@ -61,7 +61,9 @@
   <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="shiznits"/>
   <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="shiznits"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="shiznits"/>
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="shiznits"/>
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="shiznits"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="shiznits"/>
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="shiznits"/>
   <project name="platform_system_bt" path="system/bt" remote="shiznits"/>
   <project name="platform_system_core" path="system/core" remote="shiznits"/>
@@ -131,7 +133,7 @@
 <!-- END LINEAGE-OS -->
 
 <!-- BEGIN SUBSTRATUM -->
-  <project name="substratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n"/>
+  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless"/>
 <!-- END SUBSTRATUM -->
 
 <!-- BEGIN CODEAURORA -->
@@ -478,7 +480,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="android_ui.lnx.2.1.r9-rel"/>
   <project groups="pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="android_ui.lnx.2.1.r9-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="android_ui.lnx.2.1.c1-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="android_ui.lnx.2.1.r9-rel"/>
   <project groups="pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="android_ui.lnx.2.1.r9-rel"/>
   <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="android-framework.lnx.2.0.r16-rel"/>
@@ -488,7 +489,6 @@
   <project groups="pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="adp8064,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="atel.lnx.2.0.r9-rel"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="android-framework.lnx.2.0.r16-rel"/>
