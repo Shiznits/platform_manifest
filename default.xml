@@ -46,6 +46,7 @@
   <project name="platform_frameworks_av" path="frameworks/av" remote="shiznits"/>
   <project name="platform_frameworks_base" path="frameworks/base" remote="shiznits"/>
   <project name="platform_frameworks_native" path="frameworks/native" remote="shiznits"/>
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="shiznits" revision="n-mr1"/>
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="shiznits"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="shiznits"/>
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="shiznits"/>
@@ -415,7 +416,6 @@
   <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="wlan-aosp.lnx.2.0.r9-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="android-framework.lnx.2.0.r16-rel"/>
