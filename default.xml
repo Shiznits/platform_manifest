@@ -37,6 +37,7 @@
   <project name="platform_external_connectivity" path="external/connectivity" remote="shiznits"/>
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="shiznits"/>
   <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="shiznits"/>
+  <project name="platform_external_jemalloc" path="external/jemalloc" remote="shiznits" revision="n-mr1"/>
   <project name="platform_external_mksh" path="external/mksh" remote="shiznits"/>
   <project name="platform_external_okhttp" path="external/okhttp" remote="shiznits"/>
   <project name="platform_external_skia" path="external/skia" remote="shiznits"/>
@@ -254,7 +255,6 @@
   <project groups="pdk" name="platform/external/javassist" path="external/javassist"/>
   <project groups="pdk" name="platform/external/jcommander" path="external/jcommander"/>
   <project groups="pdk" name="platform/external/jdiff" path="external/jdiff"/>
-  <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="pdk" name="platform/external/jetty" path="external/jetty"/>
   <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk" name="platform/external/jmdns" path="external/jmdns"/>
