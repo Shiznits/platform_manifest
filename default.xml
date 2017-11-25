@@ -19,7 +19,7 @@
            revision="refs/heads/cm-14.1"/>
 
   <remote  name="shiznits"
-           fetch="https://github.com/Shiznits"
+           fetch="https://github.com/ShiznitsN"
            revision="refs/heads/n"/>           
 
 <!-- START SHIZNITS -->
