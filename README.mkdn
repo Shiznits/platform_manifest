@@ -4,7 +4,7 @@ Shiznits ROM
 Getting Started
 ---------------
 
-Shiznits ROM is just like AOSP-CAF ROM by Meninblack007 aka "Sanyam jain" on an updated CAF base with HALS from LAOS.
+Shiznits ROM is CAF based ROM with HALS from LAOS.
 ROM contains several commits for customization cherry-picked from PureNexusProject.
 
 To get started with Android, you'll need to get
